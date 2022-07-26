@@ -1,6 +1,4 @@
-const { WebpackPluginServe } = require("webpack-plugin-serve")
-
-const jsLoader = () => {
+const tsLoader = () => {
   const out = {
     module: {
         rules: [
@@ -17,4 +15,4 @@ const jsLoader = () => {
   return out
 }
 
-module.exports = jsLoader
+module.exports = tsLoader
