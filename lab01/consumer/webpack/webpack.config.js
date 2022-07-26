@@ -3,14 +3,16 @@ const { merge } = require('webpack-merge')
 
 const part_page = require('./webpack-part--page.js')
 const part_devServer = require('./webpack-part--dev-server.js')
+const part_tsLoader = require('./webpack-part--ts-loader.js')
 
 const DEBUG_PROD = false
 
 const commonConfig = merge([
   {
-    entry: [ './src/main.js' ]
+    entry: [ './src/main.ts' ]
   },
   part_page({title:'demo'}),
+  part_tsLoader(),
 ])
 
 
