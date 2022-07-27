@@ -2,7 +2,7 @@
   "name": "lab02-consumee",
   "version": "1.0.0",
   "description": "",
-  "module": "src/main.ts",
+  "main": "src/main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
