@@ -1,5 +1,5 @@
 // @ts-ignore
-import component from 'dependency-one'
+import component from 'lab01-consumee'
 
 declare global {
   interface Window {

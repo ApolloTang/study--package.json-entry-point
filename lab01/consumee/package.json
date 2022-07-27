@@ -1,5 +1,5 @@
 {
-  "name": "dependency-one",
+  "name": "lab01-consumee",
   "version": "1.0.0",
   "description": "",
   "module": "src/main.ts",

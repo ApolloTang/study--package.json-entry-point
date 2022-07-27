@@ -475,13 +475,13 @@
     // }
 
     {
-      "packageName": "consumer",
+      "packageName": "lab01-consumer",
       "projectFolder": "lab01/consumer",
       "reviewCategory": "prototypes"
     },
     {
-      "packageName": "dependency-one",
-      "projectFolder": "lab01/dependency-one",
+      "packageName": "lab01-consumee",
+      "projectFolder": "lab01/consumee",
       "reviewCategory": "prototypes"
     }
   ]

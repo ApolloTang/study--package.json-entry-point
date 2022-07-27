@@ -1,5 +1,5 @@
 {
-  "name": "consumer",
+  "name": "lab01-consumer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,7 +17,7 @@
   "qutoName": "Apollo Tang",
   "autherEmail": "tang.apollo@gmail.com",
   "dependencies": {
-    "dependency-one": "workspace:*"
+    "lab01-consumee": "workspace:*"
   },
   "devDependencies": {
     "webpack": "~5.74.0",
