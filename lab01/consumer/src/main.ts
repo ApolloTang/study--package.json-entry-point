@@ -1,4 +1,5 @@
-import component from './component'
+// @ts-ignore
+import component from 'dependency-one'
 
 declare global {
   interface Window {
