@@ -1,0 +1,15 @@
+{
+  "name": "lab03-consumee",
+  "version": "1.0.0",
+  "description": "",
+  "module": "src/entry_module.ts",
+  "main": "src/entry_main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Apollo Tang",
+  "license": "MIT",
+  "qutoName": "Apollo Tang",
+  "autherEmail": "tang.apollo@gmail.com"
+}
