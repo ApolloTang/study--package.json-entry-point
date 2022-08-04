@@ -17,7 +17,7 @@
   "qutoName": "Apollo Tang",
   "autherEmail": "tang.apollo@gmail.com",
   "dependencies": {
-    "lab04-consumee": "workspace:*"
+    "lab04-consumee1": "workspace:*"
   },
   "devDependencies": {
     "webpack": "~5.74.0",

@@ -14,6 +14,6 @@
                                // 'moduleResolution' is 'classic' (which does not work with ES6)
   },
   "references": [
-    {"path": "../consumee"}    // 'the package 'consumee' must set "composite: true" in its tsconfig
+    {"path": "../consumee1"}    // 'the package 'consumee' must set "composite: true" in its tsconfig
   ]
 }

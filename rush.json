@@ -509,19 +509,20 @@
       "reviewCategory": "prototypes"
     },
 
-
     {
       "packageName": "lab04-consumer",
       "projectFolder": "lab04/consumer",
       "reviewCategory": "prototypes"
     },
     {
-      "packageName": "lab04-consumee",
-      "projectFolder": "lab04/consumee",
+      "packageName": "lab04-consumee1",
+      "projectFolder": "lab04/consumee1",
+      "reviewCategory": "prototypes"
+    },
+    {
+      "packageName": "lab04-consumee2",
+      "projectFolder": "lab04/consumee2",
       "reviewCategory": "prototypes"
     }
-
-
-
   ]
 }

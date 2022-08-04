@@ -77,7 +77,16 @@ importers:
       webpack-nano: 1.1.1_webpack@5.74.0
       webpack-plugin-serve: 1.6.0_webpack@5.74.0
 
-  ../../lab04/consumee:
+  ../../lab04/consumee1:
+    specifiers:
+      lab04-consumee2: workspace:*
+      typescript: ~4.7.4
+    dependencies:
+      lab04-consumee2: link:../consumee2
+    devDependencies:
+      typescript: 4.7.4
+
+  ../../lab04/consumee2:
     specifiers:
       typescript: ~4.7.4
     devDependencies:
@@ -85,7 +94,7 @@ importers:
 
   ../../lab04/consumer:
     specifiers:
-      lab04-consumee: workspace:*
+      lab04-consumee1: workspace:*
       mini-html-webpack-plugin: ~3.1.3
       ts-loader: ~9.3.1
       typescript: ~4.7.4
@@ -94,7 +103,7 @@ importers:
       webpack-nano: ~1.1.1
       webpack-plugin-serve: ~1.6.0
     dependencies:
-      lab04-consumee: link:../consumee
+      lab04-consumee1: link:../consumee1
     devDependencies:
       mini-html-webpack-plugin: 3.1.3_webpack@5.74.0
       ts-loader: 9.3.1_typescript@4.7.4+webpack@5.74.0
