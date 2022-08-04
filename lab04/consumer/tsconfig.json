@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+
+    "lib": ["DOM", "es2016"],
+
+    // The next 2 settings are required for IDE's interlisence
+    "module": "ES6",
+    "moduleResolution": "node" // Require when 'module' field is set to 'ES6'. Default value of
+                               // 'moduleResolution' is 'classic' (which does not work with ES6)
+  },
+  "references": [
+    {"path": "../consumee"}    // 'the package 'consumee' must set "composite: true" in its tsconfig
+  ]
+}

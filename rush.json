@@ -497,6 +497,7 @@
       "reviewCategory": "prototypes"
     },
 
+
     {
       "packageName": "lab03-consumer",
       "projectFolder": "lab03/consumer",
@@ -506,6 +507,21 @@
       "packageName": "lab03-consumee",
       "projectFolder": "lab03/consumee",
       "reviewCategory": "prototypes"
+    },
+
+
+    {
+      "packageName": "lab04-consumer",
+      "projectFolder": "lab04/consumer",
+      "reviewCategory": "prototypes"
+    },
+    {
+      "packageName": "lab04-consumee",
+      "projectFolder": "lab04/consumee",
+      "reviewCategory": "prototypes"
     }
+
+
+
   ]
 }
