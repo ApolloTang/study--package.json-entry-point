@@ -8,9 +8,9 @@
     "skipLibCheck": true,
 
     // The next 3 settings are required for IDE's interlisence
+    "composite": true,
     "rootDir": "src",
-    "outDir": "dist",
-    "composite": true
+    "outDir": "dist"
   },
   "include": ["src/**/*"]
 }

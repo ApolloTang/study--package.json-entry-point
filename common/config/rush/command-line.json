@@ -181,6 +181,34 @@
       "incremental": false,
       "watchForChanges": false,
       "disableBuildCache": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "build",
+      "summary": "(CUSTOM) watch and incremental build.",
+      "description": "incremental build.",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": false,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": true,
+      "incremental": true,
+      "watchForChanges": false,
+      "disableBuildCache": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "build:w",
+      "summary": "(CUSTOM) watch and incremental build.",
+      "description": "watch and incremental build.",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": false,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": true,
+      "incremental": true,
+      "watchForChanges": true,
+      "disableBuildCache": true
     }
   ],
 

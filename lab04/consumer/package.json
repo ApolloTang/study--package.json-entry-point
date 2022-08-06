@@ -1,15 +1,16 @@
 {
   "name": "lab04-consumer",
+  "private": true,
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -fr ./dist",
     "dev": "wp --mode development --config webpack/webpack.config.js",
     "dev:w": "nodemon -w \"./webpack/\" -w \"./tsconfig.json\" -x \"pnpm dev\"",
-    "build": "pnpm clean && wp --mode production --config webpack/webpack.config.js",
-    "build:w": "nodemon -w \"./webpack/\"  -w \"./tsconfig.json\" -w \"./src/**/*.*\" -x \"pnpm build\""
+    "build": "",
+    "webpackBuild": "pnpm clean && wp --mode production --config webpack/webpack.config.js",
+    "webpackBuild:w": "nodemon -w \"./webpack/\"  -w \"./tsconfig.json\" -w \"./src/**/*.*\" -x \"pnpm build\""
   },
   "keywords": [],
   "author": "Apollo Tang",

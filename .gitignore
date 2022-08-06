@@ -69,3 +69,5 @@ common/autoinstallers/*/.npmrc
 
 # ------ custom -------
 dist/
+tsconfig.tsbuildinfo
+

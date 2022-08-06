@@ -474,41 +474,41 @@
     //   "tags": ["tools"]
     // }
 
-    {
-      "packageName": "lab01-consumer",
-      "projectFolder": "lab01/consumer",
-      "reviewCategory": "prototypes"
-    },
-    {
-      "packageName": "lab01-consumee",
-      "projectFolder": "lab01/consumee",
-      "reviewCategory": "prototypes"
-    },
-
-
-    {
-      "packageName": "lab02-consumer",
-      "projectFolder": "lab02/consumer",
-      "reviewCategory": "prototypes"
-    },
-    {
-      "packageName": "lab02-consumee",
-      "projectFolder": "lab02/consumee",
-      "reviewCategory": "prototypes"
-    },
-
-
-    {
-      "packageName": "lab03-consumer",
-      "projectFolder": "lab03/consumer",
-      "reviewCategory": "prototypes"
-    },
-    {
-      "packageName": "lab03-consumee",
-      "projectFolder": "lab03/consumee",
-      "reviewCategory": "prototypes"
-    },
-
+    // {
+    //   "packageName": "lab01-consumer",
+    //   "projectFolder": "lab01/consumer",
+    //   "reviewCategory": "prototypes"
+    // },
+    // {
+    //   "packageName": "lab01-consumee",
+    //   "projectFolder": "lab01/consumee",
+    //   "reviewCategory": "prototypes"
+    // },
+    //
+    //
+    // {
+    //   "packageName": "lab02-consumer",
+    //   "projectFolder": "lab02/consumer",
+    //   "reviewCategory": "prototypes"
+    // },
+    // {
+    //   "packageName": "lab02-consumee",
+    //   "projectFolder": "lab02/consumee",
+    //   "reviewCategory": "prototypes"
+    // },
+    //
+    //
+    // {
+    //   "packageName": "lab03-consumer",
+    //   "projectFolder": "lab03/consumer",
+    //   "reviewCategory": "prototypes"
+    // },
+    // {
+    //   "packageName": "lab03-consumee",
+    //   "projectFolder": "lab03/consumee",
+    //   "reviewCategory": "prototypes"
+    // },
+    //
     {
       "packageName": "lab04-consumer",
       "projectFolder": "lab04/consumer",
