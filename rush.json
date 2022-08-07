@@ -475,18 +475,18 @@
     // }
 
     {
-      "packageName": "lab04-consumer",
-      "projectFolder": "lab04/consumer",
+      "packageName": "consumer",
+      "projectFolder": "packages/consumer",
       "reviewCategory": "prototypes"
     },
     {
-      "packageName": "lab04-consumee1",
-      "projectFolder": "lab04/consumee1",
+      "packageName": "consumee1",
+      "projectFolder": "packages/consumee1",
       "reviewCategory": "prototypes"
     },
     {
-      "packageName": "lab04-consumee2",
-      "projectFolder": "lab04/consumee2",
+      "packageName": "consumee2",
+      "projectFolder": "packages/consumee2",
       "reviewCategory": "prototypes"
     },
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "lab04-consumer",
+  "name": "consumer",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -18,7 +18,7 @@
   "qutoName": "Apollo Tang",
   "autherEmail": "tang.apollo@gmail.com",
   "dependencies": {
-    "lab04-consumee1": "workspace:*"
+    "consumee1": "workspace:*"
   },
   "devDependencies": {
     "webpack": "~5.74.0",

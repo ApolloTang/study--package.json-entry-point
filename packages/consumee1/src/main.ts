@@ -1,4 +1,4 @@
-import {componentOne, componentTwo} from 'lab04-consumee2'
+import {componentOne, componentTwo} from 'consumee2'
 
 const container = document.createElement('div')
 container.style.border = 'red 1px solid'
