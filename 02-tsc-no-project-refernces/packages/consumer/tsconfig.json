@@ -8,12 +8,12 @@
 
     // The next 2 settings are required for IDE's interlisence
     "module": "ES6",
-    "moduleResolution": "node", // Require when 'module' field is set to 'ES6'. Default value of
+    "moduleResolution": "node"  // Require when 'module' field is set to 'ES6'. Default value of
                                 // 'moduleResolution' is 'classic' (which does not work with ES6)
 
     // "rootDir": "src"
-    "outDir": "dist"
-    // "sourceMap": true
+    // "outDir": "dist"
+    // "declarationMap": true
     // "declaration": true
   },
   "include": ["src/**/*"]
