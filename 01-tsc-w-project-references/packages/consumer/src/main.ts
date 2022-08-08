@@ -1,2 +1,3 @@
-import { container } from 'consumee1'
-document.body.appendChild(container)
+import pageContent from './page-content'
+
+document.body.appendChild(pageContent)
