@@ -1,7 +1,6 @@
 import { container } from 'consumee1'
 
 const pageContent = document.createElement('div')
-
-console.log(container)
+pageContent.append(container)
 
 export default pageContent
